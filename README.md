@@ -48,7 +48,7 @@ Doctor List :
 <img width="1886" height="829" alt="Screenshot 2025-07-16 112202" src="https://github.com/user-attachments/assets/32f1ea46-344a-4814-8c52-93df046d03e9" />
 Book Appointment :
 <img width="1718" height="825" alt="Screenshot 2025-07-16 112222" src="https://github.com/user-attachments/assets/3c51b827-5f20-48a2-a6dd-711abcb34894" />
-Shoe Appointment :
+Show Appointment :
 <img width="1899" height="854" alt="Screenshot 2025-07-16 112244" src="https://github.com/user-attachments/assets/4097d3f0-ab10-4ec2-8e1a-dedc84dee1ba" />
 
 
