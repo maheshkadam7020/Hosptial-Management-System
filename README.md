@@ -34,30 +34,3 @@ Doctor Module: View and manage doctor profiles.
 
 Appointment Module: Book and track appointments between patients and doctors.
 
-Tools Needed:
-
-Eclipse IDE
-
-MySQL Server
-
-Apache Tomcat (Install and configure in Eclipse)
-
-MySQL JDBC Connector (JAR file)
-
-Steps to Run:
-
-Open Eclipse and create a Dynamic Web Project
-
-Copy all your HTML, CSS, Servlet, and Java files into the project
-
-Add the MySQL JDBC JAR file to the project’s lib folder
-aslo you can directly paste the folder to Eclipse
-
-Create a database in MySQL (e.g., hospital_db) and required tables
-are patient,doctor,appointment.
-
-Update your JDBC connection details in the servlet code
-
-Right-click the project → Run on Server → Choose Tomcat
-after click on project name then select Rus As option
-then select run on Run on Server
