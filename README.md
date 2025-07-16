@@ -27,10 +27,13 @@ Edit Doctor Info: Admin can update doctor details if necessary.
 🎯 Purpose:
 The main goal is to automate routine hospital operations such as maintaining patient records, managing doctor schedules, and booking appointments to increase efficiency and reduce paperwork.
 
+
 🖥️ Modules Overview:
 Patient Module: Add, update, and view patient details.
 
 Doctor Module: View and manage doctor profiles.
 
 Appointment Module: Book and track appointments between patients and doctors.
+
+<img width="1899" height="863" alt="Screenshot 2025-07-16 111549" src="https://github.com/user-attachments/assets/0e4a8044-c002-4da8-a361-d00f88da5bfe" />
 
