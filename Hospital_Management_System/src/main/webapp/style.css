@@ -1,0 +1,126 @@
+body{
+     margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(225, 235, 236);
+}
+
+.contain{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    margin: 0px 0px 0px 0px;
+    
+    
+}
+.contain::before
+{
+content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("img4.jpg");
+  background-size: cover;
+  background-position: center;
+  filter: blur(4px);
+  z-index: -1; /* Puts it behind content */
+}
+.sub1 {
+   position: relative;
+  width: 200px;
+  height: 220px;
+  padding: 20px;
+  background: linear-gradient(135deg, #f0f8ff, #dfe9f3);
+  border: 2px solid rgba(5, 4, 41, 0.2);
+  border-radius: 20px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  font-family: 'Segoe UI', sans-serif;
+  color: #0a7bd7;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  overflow: hidden;
+  text-align: center;
+}
+
+
+.sub1:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+}
+
+header {
+  background: linear-gradient(135deg, #00c6ff, #0072ff); 
+  color: white;
+  padding: 20px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 1.3rem;
+  letter-spacing: 0.6px;
+  position: relative;
+  z-index: 1000;
+
+ 
+  box-shadow: 0 8px 24px rgba(0, 123, 255, 0.4);
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+
+  
+  transition: all 0.3s ease-in-out;
+}
+header:hover {
+  box-shadow: 0 12px 32px rgba(0, 123, 255, 0.6);
+  transform: translateY(-2px);
+}
+
+
+    .logo {
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+
+    .headline {
+      font-size: 2rem;
+      font-weight: bold;
+      text-align: center;
+      flex: 1;
+    }
+.card
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    position: absolute;
+    top:150px;
+    left:350px;
+    right:300px;
+
+}
+.sub1 a {
+    position: absolute;
+  display: inline-block;
+  width: 100px;
+  padding: 10px 15px;
+  background: linear-gradient(135deg, #0072ff, #00c6ff); 
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 10px;
+  font-weight: 600;
+  font-family: 'Segoe UI', sans-serif;
+  box-shadow: 0 4px 12px rgba(0, 114, 255, 0.4);
+  transition: all 0.3s ease;
+  margin-top: 15px;
+  bottom: 40px;
+  right: 55px;
+}
+
+
+.sub1 a:hover {
+  background: linear-gradient(135deg, #0056b3, #00b3ff);
+  transform: scale(1.05);
+  box-shadow: 0 6px 16px rgba(0, 114, 255, 0.5);
+}
