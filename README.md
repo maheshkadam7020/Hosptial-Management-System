@@ -1,3 +1,4 @@
+
 # Hosptial-Management-System
 The Hospital Management System is a web-based application developed using Java, Servlets, JDBC, HTML, CSS, and MySQL. This system is designed to streamline and simplify the management of patient and doctor data in a hospital setting.
 
